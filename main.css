@@ -1,0 +1,121 @@
+body{
+    background-color:#E9EBEE;
+}
+#my-nav{
+    color: white;
+    background-color: #4060B7;
+}
+
+#my-nav a{
+    color: white !important;
+}
+
+section{
+    padding:0 !important;
+}
+
+.red, .pink, .orange{
+    height: 500px;
+}
+
+.red{
+    background-color: lightgrey;
+}
+
+.pink{
+    background-color: lightgrey;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.orange{
+    background-color: lightgrey;
+}
+
+.footer{
+    height: 42px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.searchbar{
+    min-width: 400px;
+}
+
+#darkerColor span{
+    color: #0D1325;
+    font-size: 20px;
+}
+
+.list-heading{
+    padding: 20px 15px 0 15px;
+}
+
+.post-section, .ads{
+    height: 750px;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+}
+
+.post-section::-webkit-scrollbar {
+    display: none;
+}
+
+.ads::-webkit-scrollbar{
+    display: none;
+}
+.panel{
+    margin-bottom: 8px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.comments-toolkit{
+    margin-top: 5px;
+}
+.comments-toolkit span{
+    margin-left:5px ;
+}
+
+.comment-box{
+    width:100%;
+    border-radius: 10px;
+    height: 32px;
+    color: grey;
+    border: 0;
+}
+
+.comment-box:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.ficons{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#header{
+    margin-top: 80px;
+}
+
+.stories{
+    border-image: round;
+    border-color: blue;
+}
+
+
+@media (min-width: 760px) and (max-width: 990px) {
+    #header{
+        margin-top: 150px;!important;
+    }
+}
